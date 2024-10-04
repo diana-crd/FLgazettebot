@@ -1,0 +1,593 @@
+{
+    "BM_fluctuations": {
+        "name": "Bone Market Fluctuations:",
+        "name/history": "Bone Market Fluctuations:/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "Antiquity",
+                "alias": ""
+            },
+            "2": {
+                "name": "Amalgamy",
+                "alias": ""
+            },
+            "3": {
+                "name": "Menace",
+                "alias": ""
+            }
+        }
+    },
+    "BM_mania": {
+        "name": "Zoological Mania:",
+        "name/history": "Zoological Mania:/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "Reptiles",
+                "alias": ""
+            },
+            "2": {
+                "name": "Amphibians",
+                "alias": ""
+            },
+            "3": {
+                "name": "Birds",
+                "alias": ""
+            },
+            "4": {
+                "name": "Fish",
+                "alias": ""
+            },
+            "5": {
+                "name": "Arachnids",
+                "alias": ""
+            },
+            "6": {
+                "name": "Insects",
+                "alias": ""
+            },
+            "7": {
+                "name": "Primates",
+                "alias": ""
+            }
+        }
+    },
+    "BM_buyer": {
+        "name": "Occasional Buyer:",
+        "name/history": "Occasional Buyer:/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "An Enthusiast in Skulls",
+                "alias": ""
+            },
+            "2": {
+                "name": "An Enterprising Boot Salesman",
+                "alias": ""
+            },
+            "3": {
+                "name": "An Ingenuous Malacologist",
+                "alias": ""
+            },
+            "4": {
+                "name": "A Dreary Midnighter",
+                "alias": ""
+            },
+            "5": {
+                "name": "A Colourful Phantasist",
+                "alias": ""
+            }
+        }
+    },
+    "khan_fascination": {
+        "name": "The Diplomat's Current Fascination",
+        "name/history": "The Diplomat's Current Fascination/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "Amalgamous skeletons",
+                "alias": ""
+            },
+            "2": {
+                "name": "Antique skeletons",
+                "alias": ""
+            },
+            "3": {
+                "name": "Menacing skeletons",
+                "alias": ""
+            },
+            "4": {
+                "name": "Skeletons with multiple heads",
+                "alias": ""
+            },
+            "5": {
+                "name": "Skeletons with a surfeit of legs",
+                "alias": ""
+            },
+            "6": {
+                "name": "Fossilized fish",
+                "alias": ""
+            },
+            "7": {
+                "name": "Ancient arachnids",
+                "alias": ""
+            },
+            "8": {
+                "name": "Prehistoric insects",
+                "alias": ""
+            },
+            "9": {
+                "name": "Primaeval birds",
+                "alias": ""
+            },
+            "10": {
+                "name": "Ancient amphibians",
+                "alias": ""
+            },
+            "11": {
+                "name": "Reptilian fossils",
+                "alias": ""
+            }
+        }
+    },
+    "khan_emetics": {
+        "name": "The Engineer's Current Need:",
+        "name/history": "The Engineer's Current Need:/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "Correspondence Plaques",
+                "alias": ""
+            },
+            "2": {
+                "name": "Unprovenanced Artefacts",
+                "alias": ""
+            },
+            "3": {
+                "name": "Palimpsest Scraps",
+                "alias": ""
+            },
+            "4": {
+                "name": "Mourning Candles",
+                "alias": ""
+            },
+            "5": {
+                "name": "Glass Gazettes",
+                "alias": ""
+            },
+            "6": {
+                "name": "Thirsty Bombazine Scraps",
+                "alias": ""
+            },
+            "7": {
+                "name": "Knobs of Scintillack",
+                "alias": ""
+            },
+            "8": {
+                "name": "Traces of Viric",
+                "alias": ""
+            }
+        }
+    },
+    "waswood_season": {
+        "name": "Season of the Sacroboscan Calendar",
+        "name/history": "Season of the Sacroboscan Calendar/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "1",
+                "alias": "Remember (or return to) the Mayorality of Sinning Jenny"
+            },
+            "2": {
+                "name": "2",
+                "alias": "Remember (or return to) the Mayorality of Virginia"
+            },
+            "3": {
+                "name": "3",
+                "alias": "Remember (or return to) the Mayorality of the Viscountess"
+            },
+            "4": {
+                "name": "4",
+                "alias": "Remember the Election of 1896"
+            },
+            "5": {
+                "name": "5",
+                "alias": "Remember the Election of 1897"
+            },
+            "6": {
+                "name": "6",
+                "alias": "Remember the Election of 1898"
+            },
+            "7": {
+                "name": "7",
+                "alias": "Remember the Opening of Arbor"
+            },
+            "8": {
+                "name": "8",
+                "alias": "Relive (or return to) a reverie of the Great Sink"
+            },
+            "9": {
+                "name": "9",
+                "alias": "Relive (or reconstruct) the Museum of Prelapsarian History"
+            }
+        }
+    },
+    "rat_presence": {
+        "name": "The Rat Market (Quality)",
+        "name/history": "The Rat Market (Quality)/History",
+        "alias": "",
+        "values": {
+            "0": {
+                "name": "Closed",
+                "alias": ""
+            },
+            "1": {
+                "name": "Open",
+                "alias": ""
+            }
+        }
+    },
+    "rat_season": {
+        "name": "The Rat-Season:",
+        "name/history": "The Rat-Season:/History",
+        "alias": "",
+        "values": {
+            "3": {
+                "name": "Freeze-and-Fall",
+                "alias": "",
+                "items": [
+                    "Fecund Amber",
+                    "Irrigo Mirrorcatch Box",
+                    "Pair of Irrigo Goggles",
+                    "Ray-Drenched Cinder"
+                ]
+            },
+            "4": {
+                "name": "Lying-Longing",
+                "alias": "",
+                "items": [
+                    "Eyeless Skull",
+                    "Irrigo Mirrorcatch Box",
+                    "Pair of Irrigo Goggles",
+                    "Ray-Drenched Cinder"
+                ]
+            },
+            "5": {
+                "name": "Candle-Canker",
+                "alias": "",
+                "items": [
+                    "Eyeless Skull",
+                    "Starstone Demark",
+                    "Pair of Irrigo Goggles",
+                    "Ray-Drenched Cinder"
+                ]
+            },
+            "6": {
+                "name": "Wink-and-Wane",
+                "alias": "",
+                "items": [
+                    "Eyeless Skull",
+                    "Starstone Demark",
+                    "Intriguer's Compendium",
+                    "Irrigo Frocksuit"
+                ]
+            },
+            "7": {
+                "name": "Vial-Vane",
+                "alias": "",
+                "items": [
+                    "Elemental Secret",
+                    "Starstone Demark",
+                    "Intriguer's Compendium",
+                    "Irrigo Frocksuit"
+                ]
+            },
+            "8": {
+                "name": "Take-and-Toil",
+                "alias": "",
+                "items": [
+                    "Elemental Secret",
+                    "Coruscating Soul",
+                    "Intriguer's Compendium",
+                    "Irrigo Frocksuit"
+                ]
+            },
+            "9": {
+                "name": "Wine-Whisper",
+                "alias": "",
+                "items": [
+                    "Elemental Secret",
+                    "Coruscating Soul",
+                    "Forgotten Slippers",
+                    "Edicts of the First City"
+                ]
+            },
+            "10": {
+                "name": "Rise-and-Rake",
+                "alias": "",
+                "items": [
+                    "Legenda Cosmogone",
+                    "Coruscating Soul",
+                    "Forgotten Slippers",
+                    "Edicts of the First City"
+                ]
+            },
+            "11": {
+                "name": "Nitre-Knife",
+                "alias": "",
+                "items": [
+                    "Legenda Cosmogone",
+                    "Reported Location of a One-Time Prince of Hell",
+                    "Forgotten Slippers",
+                    "Edicts of the First City"
+                ]
+            },
+            "12": {
+                "name": "Kifer-Caitiff",
+                "alias": "",
+                "items": [
+                    "Legenda Cosmogone",
+                    "Reported Location of a One-Time Prince of Hell",
+                    "Stainless Gloves",
+                    "Vial of Tears of the Bazaar"
+                ]
+            },
+            "13": {
+                "name": "Skitter-Scatter",
+                "alias": "",
+                "items": [
+                    "Fecund Amber",
+                    "Reported Location of a One-Time Prince of Hell",
+                    "Stainless Gloves",
+                    "Vial of Tears of the Bazaar"
+                ]
+            },
+            "14": {
+                "name": "Dimmest-Dark",
+                "alias": "",
+                "items": [
+                    "Fecund Amber",
+                    "Irrigo Mirrorcatch Box",
+                    "Stainless Gloves",
+                    "Vial of Tears of the Bazaar"
+                ]
+            }
+        }
+    },
+    "rat_moon": {
+        "name": "Phase of the Rat-Moon:",
+        "name/history": "Phase of the Rat-Moon:/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "Blue",
+                "alias": "",
+                "items": [
+                    "Fecund Amber Tiara"
+                ]
+            },
+            "2": {
+                "name": "Soft",
+                "alias": "",
+                "items": [
+                    "Pair of Lenguals"
+                ]
+            },
+            "3": {
+                "name": "Hard",
+                "alias": "",
+                "items": [
+                    "Smock of Four Thousand Three Hundred and Eight Pockets"
+                ]
+            },
+            "4": {
+                "name": "Runny",
+                "alias": "",
+                "items": [
+                    "Pair of Vakeskin Boots"
+                ]
+            }
+        }
+    },
+    "rat_wind": {
+        "name": "Direction of the Rat-Wind:",
+        "name/history": "Direction of the Rat-Wind:/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "East",
+                "alias": "",
+                "items": [
+                    "Ratwork Watch"
+                ]
+            },
+            "2": {
+                "name": "South",
+                "alias": "",
+                "items": [
+                    "Poison-tipped Umbrella"
+                ]
+            },
+            "3": {
+                "name": "West",
+                "alias": "",
+                "items": [
+                    "Ratwork Pocket Piece"
+                ]
+            },
+            "4": {
+                "name": "North",
+                "alias": "",
+                "items": [
+                    "Rat's-Head Cane"
+                ]
+            }
+        }
+    },
+    "rat_rlseason": {
+        "name": "The False-Season:",
+        "name/history": "The False-Season:/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "Spring",
+                "alias": "",
+                "items": [
+                    "False-Star Catalogue"
+                ]
+            },
+            "2": {
+                "name": "Summer",
+                "alias": "",
+                "items": [
+                    "Leviathan-Bone Knife"
+                ]
+            },
+            "3": {
+                "name": "Autumn",
+                "alias": "",
+                "items": [
+                    "Venge-Rat Waders"
+                ]
+            },
+            "4": {
+                "name": "Winter",
+                "alias": "",
+                "items": [
+                    "St Eligius' Beard Hairs"
+                ]
+            }
+        }
+    },
+    "demand_inscrutable": {
+        "name": "Inscrutable Demand",
+        "name/history": "Inscrutable Demand/History",
+        "alias": "The Whiskery Bibliophile",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "",
+                "items": [
+                    "Uncanny Incunabulum",
+                    "Cartographer's Hoard"
+                ]
+            }
+        }
+    },
+    "demand_intricate": {
+        "name": "Intricate Demand",
+        "name/history": "Intricate Demand/History",
+        "alias": "The Belligerent Bombardier",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "",
+                "items": [
+                    "Unlawful Device",
+                    "Corresponding Sounder"
+                ]
+            }
+        }
+    },
+    "demand_maudlin": {
+        "name": "Maudlin Demand",
+        "name/history": "Maudlin Demand/History",
+        "alias": "The Sinistral Poet",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "",
+                "items": [
+                    "Captivating Ballad",
+                    "Parabolan Parable"
+                ]
+            }
+        }
+    },
+    "demand_saintly": {
+        "name": "Saintly Demand",
+        "name/history": "Saintly Demand/History",
+        "alias": "The Diminutive Vicar",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "",
+                "items": [
+                    "Ratty Reliquary",
+                    "False Hagiotoponym"
+                ]
+            }
+        }
+    },
+    "demand_soft": {
+        "name": "Soft Demand",
+        "name/history": "Soft Demand/History",
+        "alias": "The Feathered Dressmaker",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "",
+                "items": [
+                    "Parabola-Linen Scrap",
+                    "Scrap of Ivory Organza"
+                ]
+            }
+        }
+    },
+    "demand_tempestuous": {
+        "name": "Tempestuous Demand",
+        "name/history": "Tempestuous Demand/History",
+        "alias": "The Shrivelled Celebrant",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "",
+                "items": [
+                    "Storm-Threnody",
+                    "Night-Whisper"
+                ]
+            }
+        }
+    },
+    "demand_ruinous": {
+        "name": "Ruinous_Demand",
+        "name/history": "Ruinous_Demand/History",
+        "alias": "",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "The Scabrous Sibyl",
+                "items": [
+                    "Dreadful Surmise",
+                    "Distillation of Retribution",
+                    "Mortification of a Great Power"
+                ]
+            }
+        }
+    },
+    "demand_calculating": {
+        "name": "Calculating_Demand",
+        "name/history": "Calculating_Demand/History",
+        "alias": "The Grey Tipster",
+        "values": {
+            "1": {
+                "name": "Present",
+                "alias": "",
+                "items": [
+                    "Vital Intelligence",
+                    "Corresponding Sounder",
+                    "Paired Mates"
+                ]
+            }
+        }
+    },
+    "demand":{
+        "0": "Unavailable, but it might show up next week",
+        "1": "Newly available",
+        "2": "Available, but it will leave next week",
+        "3": "Unavailable, on its first week of cooldown",
+        "4": "Unavailable, on its second week of cooldown",
+        "5": "Unavailable, on its third week of cooldown"
+    }
+}

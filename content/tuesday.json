@@ -1,0 +1,77 @@
+{
+    "intro": [
+        {
+        "type": "text",
+        "subtype": "heading1",
+        "text": "Tuesday's Gazette: The Bone Market and the far Khanate"
+        },
+        {
+            "type": "text",
+            "text": "These are the updates for the Bone Market and Khanate WQs."
+        }
+    ],
+    "BM_fluctuations": {
+        "1": [
+            {
+                "type": "text",
+                "text": "Antiquity is cool now."
+                }
+        ],
+        "2": [
+            {
+                "type": "text",
+                "text": "Amalgamy is cool now."
+                }
+        ],
+        "3": [
+            {
+                "type": "text",
+                "text": "Menace is cool now."
+                }
+        ]
+    },
+    "BM_mania": {
+        "1": [
+            {
+                "type": "text",
+                "text": "Reptiles are cool and you make them like this."
+                }
+        ],
+        "2": [
+            {
+                "type": "text",
+                "text": "Amphibians are cool and you make them like this."
+                }
+        ],
+        "3": [
+            {
+                "type": "text",
+                "text": "Birds are cool and you make them like this."
+                }
+        ],
+        "4": [
+            {
+                "type": "text",
+                "text": "Fish are cool and you make them like this."
+                }
+        ],
+        "5": [
+            {
+                "type": "text",
+                "text": "Arachnids are cool and you make them like this."
+                }
+        ],
+        "6": [
+            {
+                "type": "text",
+                "text": "Insects are cool and you make them like this."
+                }
+        ],
+        "7": [
+            {
+                "type": "text",
+                "text": "Primates are cool and you make them like this."
+                }
+        ]
+    }
+}
