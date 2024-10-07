@@ -1,9 +1,13 @@
 import requests
 import json
-from re import findall, search
+from re import findall, search, finditer
 from os.path import isfile
+from time import sleep
+
 
 api_endpoint = "https://fallenlondon.wiki/w/api.php"
+wiki_url = "https://fallenlondon.wiki/wiki/"
+
 headers = {
     'User-Agent': 'FLGazetteBot/0.1 python requests',
     'From': "carduccidiana1@gmail.com"}
@@ -67,7 +71,7 @@ def dump_items():
     for item in items_set:
         items_dict[item] = {"alias": "", "ratvalue": "", "value": ""}
     
-    with open("info/items.json", 'w', encoding='utf-8') as f:
+    with open("info/raw_items.json", 'w', encoding='utf-8') as f:
         json.dump(items_dict, f, ensure_ascii=False, indent=4)
 
 
@@ -96,6 +100,75 @@ def get_current_value(quality):
     value_update = parse_current_value(wiki_txt)
 
     return value_update
+
+def get_latest_values(qualities):
+    min_update = 99991001110511 
+    values_dict = {}
+    
+    for quality in qualities:
+        cval, last_update = get_current_value(quality)
+        values_dict[quality] = cval
+        min_update = min(min_update, int(last_update))
+    
+    return values_dict, min_update
+
+
+def format_wikiurl(string: str):
+    rgx_simple = r"\[\[([ \-\w]+)\]\]"
+    rgx_alias = r"\[\[([ \-\w]+)\|([ \-\w]+)\]\]"
+    simple_links = finditer(rgx_simple, string)
+    for match in simple_links:
+        url = wiki_url + match.group(1)
+        href = f"<a href=\"{url}\">{match.group(1)}</a>"
+        string = string.replace(match.group(0), href)
+
+    alias_links = finditer(rgx_alias, string)
+    for match in alias_links:
+        url = wiki_url + match.group(1)
+        href = f"<a href=\"{url}\">{match.group(2)}</a>"
+        string = string.replace(match.group(0), href)
+
+    return string
+
+def format_npfwikiurl(block: dict):
+    rgx_simple = r"\[\[([ \-\w']+)\]\]"
+    rgx_alias = r"\[\[([ \-\w']+)\|([ \-\w']+)\]\]"
+
+    formatting = []
+    string = block["text"]
+    simple_links = finditer(rgx_simple, string)
+
+    for match in simple_links:
+        url = wiki_url + match.group(1).replace(" ", "_")
+        start = string.find(match.group(0))
+        end = start + len(match.group(1))
+        formatting.append({
+            "start": start,
+            "end": end,
+            "type": "link",
+            "url": url
+        })
+        print(formatting[-1])
+
+        string = string.replace(match.group(0), match.group(1))
+
+    alias_links = finditer(rgx_alias, string)
+    for match in alias_links:
+        url = wiki_url + match.group(1).replace(" ", "_")
+        start = string.find(match.group(0))
+        end = start + len(match.group(2))
+        formatting.append({
+            "start": start,
+            "end": end,
+            "type": "link",
+            "url": url
+        })
+        print(formatting[-1])
+        string = string.replace(match.group(0), match.group(2))
+
+    block["text"] = string
+    block["formatting"] = formatting
+
 
 if __name__ == "__main__":
     parse_quality_values()
