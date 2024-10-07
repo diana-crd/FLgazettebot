@@ -553,7 +553,7 @@
     "demand_ruinous": {
         "name": "Ruinous_Demand",
         "name/history": "Ruinous_Demand/History",
-        "alias": "",
+        "alias": "The Scabrous Sibyl",
         "values": {
             "1": {
                 "name": "Present",

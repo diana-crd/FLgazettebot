@@ -1,0 +1,48 @@
+{
+    "title": "Monday's Gazette: The Rat Market closes its doors!",
+
+    "generic intro": [
+        "(Hi! I'm a work-in-progress tumblr bot for Fallen London world qualities updates! I'm still very early in development but if you're seeing this post it means I'm working somewhat.",
+        "The Rat Market is once again closed! Here's what to expect for next week:"
+    ],
+    "qualities intro": [],
+    "rat_season": {
+        "type": "always",
+        "structure": "p_u",
+        "p": "The Rat Season has turned to {value}, meaning the following items will be available for sale:",
+        "u": "[[{item}]], for {price} Rat Shillings."
+    },
+    "rat_moon": {
+        "type": "always",
+        "structure": "p",
+        "p": "The Rat-Moon has become {value}: [[{item}]] will be available for {price} Rat Shillings."
+    },
+    "rat_wind": {
+        "type": "always",
+        "structure": "p",
+        "p": "The Rat-Wind now blows {value}: [[{item}]] will be available for {price} Rat Shillings."
+    },
+    "rat_rlseason": {
+        "type": "always",
+        "structure": "p",
+        "p": "The False Season is {value}: [[{item}]] will be available for {price} Rat Shillings."
+    },
+    "demand_generic": {
+        "type": "demand",
+        "structure": "d_u",
+        "1": "{alias} has just arrived and is buying the following items:",
+        "2": "{alias}, leaving soon, is buying the following items:",
+        "3": "{alias} has departed, and won't be seen again for at least 3 weeks.",
+        "u": "[[{item}]], for at least {price} Rat Shillings."
+    },
+    "demand_tempestuous": {
+        "type": "demand",
+        "structure": "d_u_p",
+        "1": "{alias} has just arrived and is buying the following items:",
+        "2": "{alias}, leaving soon, is buying the following items:",
+        "3": "{alias} has departed, and won't be seen again for at least 3 weeks.",
+        "u": "[[{item}]], for at least {price} Rat Shillings.",
+        "p": "Additionally, the Shrivelled Celebrant is selling [[Gant-filled Mirrorcatch Box]] for 3,750 Rat Shillings."
+    }
+
+}
