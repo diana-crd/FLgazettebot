@@ -135,7 +135,6 @@ def format_npfwikiurl(block: dict):
     rgx_alias = r"\[\[([ \-\w']+)\|([ \-\w']+)\]\]"
 
     formatting = []
-    string = block["text"]
     simple_links = finditer(rgx_simple, string)
 
     for match in simple_links:
@@ -166,7 +165,6 @@ def format_npfwikiurl(block: dict):
         print(formatting[-1])
         string = string.replace(match.group(0), match.group(2))
 
-    block["text"] = string
     block["formatting"] = formatting
 
 
