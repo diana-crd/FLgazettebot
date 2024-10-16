@@ -2,226 +2,613 @@
     "Ratwork Pocket Piece": {
         "alias": "",
         "ratprice": "3,200",
-        "value": ""
+        "value": "",
+        "type": "Weapon",
+        "stats": {
+            "Shadowy": "+4",
+            "Dangerous": "+8"
+        },
+        "perk": "grants +4 Shadowy, +8 Dangerous"
     },
     "Parabola-Linen Scrap": {
         "alias": "",
         "ratprice": "625",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Ray-Drenched Cinder": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Leviathan-Bone Knife": {
         "alias": "",
         "ratprice": "10,000",
-        "value": ""
+        "value": "",
+        "type": "Weapon",
+        "stats": {
+            "Shadowy": "+8",
+            "Dreaded": "+1",
+            "Monstrous Anatomy": "+1"
+        },
+        "perk": "grants +8 Shadowy, +1 Dreaded, +1 Monstrous Anatomy"
     },
     "Mortification of a Great Power": {
         "alias": "",
         "ratprice": "625",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Legenda Cosmogone": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Pair of Forgotten Slippers": {
         "alias": "",
         "ratprice": "3,000",
-        "value": ""
+        "value": "",
+        "type": "custom",
+        "stats": {}
     },
     "Paired Mates": {
-        "alias": "\b\bPaired [[Queen Mate|Queen Mates]] and [[Epaulette Mate|Epaulette Mates",
+        "alias": "Paired [[Queen Mate|Queen Mates]] and [[Epaulette Mate|Epaulette Mates",
         "ratprice": "500",
-        "value": ""
+        "value": "",
+        "type": "custom",
+        "stats": {}
     },
     "False-Star Catalogue": {
         "alias": "",
         "ratprice": "10,000",
-        "value": ""
+        "value": "",
+        "type": "Weapon",
+        "stats": {
+            "Watchful": "+9",
+            "Bizarre": "+1",
+            "Glasswork": "+1"
+        },
+        "perk": "grants +9 Watchful, +1 Bizarre, +1 Glasswork"
     },
     "Eyeless Skull": {
         "alias": "",
         "ratprice": "625",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "St Eligius' Beard Hairs": {
         "alias": "",
         "ratprice": "10,000",
-        "value": ""
+        "value": "",
+        "type": "custom",
+        "stats": {}
     },
     "Ratty Reliquary": {
         "alias": "",
         "ratprice": "125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Cartographer's Hoard": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Distillation of Retribution": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Starstone Demark": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Coruscating Soul": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Fidgeting",
+        "stats": {}
     },
     "Captivating Ballad": {
         "alias": "",
         "ratprice": "625",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Irrigo Mirrorcatch Box": {
         "alias": "",
         "ratprice": "3,500",
-        "value": ""
+        "value": "",
+        "type": "custom",
+        "stats": {}
     },
     "Storm-Threnody": {
         "alias": "",
         "ratprice": "125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Elemental Secret": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Smock of Four Thousand Three Hundred and Eight Pockets": {
         "alias": "",
         "ratprice": "2,800",
-        "value": ""
+        "value": "",
+        "type": "Clothing",
+        "stats": {
+            "Watchful": "+10"
+        },
+        "perk": "grants +10 Watchful"
     },
     "Corresponding Sounder": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Fecund Amber Tiara": {
         "alias": "",
         "ratprice": "2,800",
-        "value": ""
+        "value": "",
+        "type": "Hat",
+        "stats": {
+            "Persuasive": "+10",
+            "Bizarre": "+1"
+        },
+        "perk": "grants +10 Persuasive, +1 Bizarre"
     },
     "Reported Location of a One-Time Prince of Hell": {
         "alias": "",
         "ratprice": "15,625",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Vital Intelligence": {
         "alias": "",
         "ratprice": "125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Rat's-Head Cane": {
         "alias": "",
         "ratprice": "3,200",
-        "value": ""
+        "value": "",
+        "type": "Weapon",
+        "stats": {
+            "Watchful": "+4",
+            "Persuasive": "+8"
+        },
+        "perk": "grants +4 Watchful, +8 Persuasive"
     },
     "Ratwork Watch": {
         "alias": "",
         "ratprice": "3,200",
-        "value": ""
+        "value": "",
+        "type": "Weapon",
+        "stats": {
+            "Watchful": "+8",
+            "Persuasive": "+1",
+            "Dangerous": "-2"
+        },
+        "perk": "grants +8 Watchful, +1 Persuasive, -2 Dangerous"
     },
     "Stainless Gloves": {
         "alias": "",
         "ratprice": "4,000",
-        "value": ""
+        "value": "",
+        "type": "Gloves",
+        "stats": {
+            "Shadowy": "+3",
+            "Dangerous": "+7"
+        },
+        "perk": "grants +3 Shadowy, +7 Dangerous"
     },
     "Uncanny Incunabulum": {
         "alias": "",
         "ratprice": "125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Night-Whisper": {
         "alias": "",
         "ratprice": "625",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Scrap of Ivory Organza": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Vial of Tears of the Bazaar": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
-    "Poison-tipped Umbrella": {
+    "Poison-Tipped Umbrella": {
         "alias": "",
         "ratprice": "3,200",
-        "value": ""
+        "value": "",
+        "type": "Weapon",
+        "stats": {
+            "Shadowy": "+8",
+            "Dangerous": "+4"
+        },
+        "perk": "grants +8 Shadowy, +4 Dangerous"
     },
     "Pair of Lenguals": {
         "alias": "",
         "ratprice": "2,800",
-        "value": ""
+        "value": "",
+        "type": "Gloves",
+        "stats": {
+            "Shadowy": "+10",
+            "Bizarre": "+1"
+        },
+        "perk": "grants +10 Shadowy, +1 Bizarre"
     },
     "Dreadful Surmise": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Edicts of the First City": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Venge-Rat Waders": {
         "alias": "",
         "ratprice": "10,000",
-        "value": ""
+        "value": "",
+        "type": "Boots",
+        "stats": {
+            "Dangerous": "+7",
+            "Bizarre": "+1",
+            "Kataleptic Toxicology": "+1"
+        },
+        "perk": "grants +7 Dangerous, +1 Bizarre, +1 Kataleptic Toxicology"
     },
     "Parabolan Parable": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Pair of Irrigo Goggles": {
         "alias": "",
         "ratprice": "2,000",
-        "value": ""
+        "value": "",
+        "type": "Adornment",
+        "stats": {
+            "Watchful": "+8",
+            "Persuasive": "-1",
+            "Bizarre": "-1"
+        },
+        "perk": "grants +8 Watchful, -1 Persuasive, -1 Bizarre"
     },
     "Irrigo Frocksuit": {
-        "alias": "[Strange-Shore Parabola Frock] and [Suit|Strange-Shore Parabola Suit]",
+        "alias": "[[Strange-Shore Parabola Frock]] and [[Strange-Shore Parabola Suit|Suit]]",
         "ratprice": "5,000",
-        "value": ""
+        "value": "",
+        "type": "custom",
+        "stats": {}
     },
     "Unlawful Device": {
         "alias": "",
         "ratprice": "125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Fecund Amber": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "custom",
+        "stats": {}
     },
     "False Hagiotoponym": {
         "alias": "",
         "ratprice": "625",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Intriguer's Compendium": {
         "alias": "",
         "ratprice": "3,125",
-        "value": ""
+        "value": "",
+        "type": "Item",
+        "stats": {}
     },
     "Pair of Vakeskin Boots": {
         "alias": "",
         "ratprice": "2,800",
-        "value": ""
+        "value": "",
+        "type": "Boots",
+        "stats": {
+            "Dangerous": "+8",
+            "Shadowy": "-1"
+        },
+        "perk": "grants +8 Dangerous, -1 Shadowy"
+    },
+    "Amalgamous skeletons": {
+        "alias": "",
+        "quality": "Amalgamy",
+        "primary_reward": "Hinterland Scrip",
+        "secondary_reward": "Slim Volume of Bazaarine Poetry|Slim Volumes of Bazaarine Poetry",
+        "type": "custom",
+        "stats": {}
+    },
+    "Menacing skeletons": {
+        "alias": "",
+        "quality": "Menace",
+        "primary_reward": "Solacefruit",
+        "secondary_reward": "Carved Ball of Stygian Ivory|Carved Balls of Stygian Ivory",
+        "type": "custom",
+        "stats": {}
+    },
+    "Antique skeletons": {
+        "alias": "",
+        "quality": "Antiquity",
+        "primary_reward": "Memory of Light|Memories of Light",
+        "secondary_reward": "Knob of Scintillack|Knobs of Scintillack",
+        "type": "custom",
+        "stats": {}
+    },
+    "An Ambassador": {
+        "alias": "",
+        "kind": "quality",
+        "perk": "influences some text around the game, and allows you to choose \"Ambassador\" as your term of address if set to 5 (\"You are Ambassador to Arbor\")",
+        "type": "Quality",
+        "stats": {}
+    },
+    "In Arbor I Walked With": {
+        "alias": "",
+        "kind": "quality",
+        "perk": "influences your options during this event",
+        "type": "Quality",
+        "stats": {}
+    },
+    "A Clue from the Duchess": {
+        "alias": "",
+        "kind": "quality",
+        "perk": "is required to be appointed Ambassador yourself",
+        "type": "Quality",
+        "stats": {}
+    },
+    "A Clue from the Princess": {
+        "alias": "",
+        "kind": "quality",
+        "perk": "is required to be appointed Ambassador yourself",
+        "type": "Quality",
+        "stats": {}
+    },
+    "A Clue from the Widow": {
+        "alias": "",
+        "kind": "quality",
+        "perk": "is required to be appointed Ambassador yourself",
+        "type": "Quality",
+        "stats": {}
+    },
+    "Polythreme Drinking Vessel": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +1 Bizarre, +8 Persuasive",
+        "type": "Weapon",
+        "stats": {
+            "Bizarre": "+1",
+            "Persuasive": "+8"
+        }
+    },
+    "M. D_____' A_____ for _______: F____ Edition": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +4 Watchful, +1 Zeefaring",
+        "type": "Weapon",
+        "stats": {
+            "Watchful": "+4",
+            "Zeefaring": "+1"
+        }
+    },
+    "A Memory of the Affair of the Ushabti": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "",
+        "type": "Quality",
+        "stats": {}
+    },
+    "Wax-Hardened Boots": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +1 Respectable, +5 Watchful",
+        "type": "Boots",
+        "stats": {
+            "Respectable": "+1",
+            "Watchful": "+5"
+        }
+    },
+    "A Volunteer During the Great Sink of 1899": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "",
+        "type": "Quality",
+        "stats": {}
+    },
+    "Sturdy Pick": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +4 Shadowy, +7 Dangerous, -1 Respectable, +1 Dreaded",
+        "type": "Weapon",
+        "stats": {
+            "Shadowy": "+4",
+            "Dangerous": "+7",
+            "Respectable": "-1",
+            "Dreaded": "+1"
+        }
+    },
+    "An Initiate into the Perfumer's Arts": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +5 Shadowy, +4 Dreaded, +1 Kataleptic Toxicology",
+        "type": "Affiliation",
+        "stats": {
+            "Shadowy": "+5",
+            "Dreaded": "+4",
+            "Kataleptic Toxicology": "+1"
+        }
+    },
+    "Memory of a Miniature Museum": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +3 Dangerous, +1 Respectable",
+        "type": "Affiliation",
+        "stats": {
+            "Dangerous": "+3",
+            "Respectable": "+1"
+        }
+    },
+    "A Reverie of Heroism": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +2 Persuasive, +1 Respectable, +1 Bizarre",
+        "type": "Affiliation",
+        "stats": {
+            "Persuasive": "+2",
+            "Respectable": "+1",
+            "Bizarre": "+1"
+        }
+    },
+    "A Poisoned Pen": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +8 Dangerous, +1 Dreaded",
+        "type": "Weapon",
+        "stats": {
+            "Dangerous": "+8",
+            "Dreaded": "+1"
+        }
+    },
+    "A Pre-Lapsarian Speaking Tube": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +4 Persuasive, -1 Shadowy",
+        "type": "Weapon",
+        "stats": {
+            "Persuasive": "+4",
+            "Shadowy": "-1"
+        }
+    },
+    "Singed and Stained Work Gloves": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +8 Dangerous, +1 Bizarre, +1 Kataleptic Toxicology",
+        "type": "Gloves",
+        "stats": {
+            "Dangerous": "+8",
+            "Bizarre": "+1",
+            "Kataleptic Toxicology": "+1"
+        }
+    },
+    "Your Name in F.F. Gebrandt's Address Book": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +5 Watchful, +1 Bizarre, +1 A Player of Chess",
+        "type": "Affiliation",
+        "stats": {
+            "Watchful": "+5",
+            "Bizarre": "+1",
+            "A Player of Chess": "+1"
+        }
+    },
+    "Pair of Forgotten Spidersilk Slippers": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +9 Shadowy, -1 Persuasive",
+        "type": "Boots",
+        "stats": {
+            "Shadowy": "+9",
+            "Persuasive": "-1"
+        }
+    },
+    "Questions about the Dreams of Rubbery Men": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "",
+        "type": "Quality",
+        "stats": {}
+    },
+    "Nodule of Fecund Amber": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "",
+        "type": "Item",
+        "stats": {}
+    },
+    "Seven of St Eligius' Very Own Beard Hairs": {
+        "alias": "",
+        "ratvalue": "",
+        "kind": "",
+        "perk": "grants +2 Watchful, +1 Respectable, +1 Zeefaring",
+        "type": "Affiliation",
+        "stats": {
+            "Watchful": "+2",
+            "Respectable": "+1",
+            "Zeefaring": "+1"
+        }
     }
 }

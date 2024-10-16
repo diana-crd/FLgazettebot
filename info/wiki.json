@@ -8,25 +8,37 @@
                 "value": "Antiquity",
                 "alias": "",
                 "linear_buyer": "An Enthusiast of the Ancient World",
+                "linear_reward": "1 additional [[Unprovenanced Artifact]]",
                 "mult_buyer1": "An Author of Gothic Tales",
+                "mult_reward1": "[[Carved Ball of Stygian Ivory|Carved Balls of Stygian Ivory]]",
                 "mult_buyer2": "A Zailor with Particular Interests",
-                "quad_buyer": "An Investment-Minded Ambassador"
+                "mult_reward2": "[[Knob of Scintillack|Knobs of Scintillack]]",
+                "quad_buyer": "An Investment-Minded Ambassador",
+                "quad_reward": "[[Tailfeather Brilliant as Flame|Tailfeathers Brilliant as Flame]] equal to 0.8"
             },
             "2": {
                 "value": "Amalgamy",
                 "alias": "",
                 "linear_buyer": "A Tentacled Servant",
+                "linear_reward": "5 additional [[Ambiguous Eoliths|Ambiguous Eoliths]]",
                 "mult_buyer1": "A Rubbery Collector",
+                "mult_reward1": "[[Basket of Rubbery Pies|Baskets of Rubbery Pies]]",
                 "mult_buyer2": "A Zailor with Particular Interests",
-                "quad_buyer": "A Tentacled Entrepreneur"
+                "mult_reward2": "[[Knob of Scintillack|Knobs of Scintillack]]",
+                "quad_buyer": "A Tentacled Entrepreneur",
+                "quad_reward": "[[Final Breath|Final Breaths]] equal to 4"
             },
             "3": {
                 "value": "Menace",
                 "alias": "",
                 "linear_buyer": "Mrs Plenty",
+                "linear_reward": "1 additional [[Basket of Rubbery Pies]]",
                 "mult_buyer1": "A Rubbery Collector",
+                "mult_reward1": "[[Basket of Rubbery Pies|Baskets of Rubbery Pies]]",
                 "mult_buyer2": "An Author of Gothic Tales",
-                "quad_buyer": "A Teller of Terrors"
+                "mult_reward2": "[[Carved Balls of Stygian Ivory|Carved Balls of Stygian Ivory]]",
+                "quad_buyer": "A Teller of Terrors",
+                "quad_reward": "[[Royal-Blue Feather|Royal-Blue Feathers]] equal to 4"
             }
         }
     },
@@ -37,52 +49,52 @@
         "values": {
             "1": {
                 "value": "Reptiles",
-                "alias": "",
+                "alias": "a Reptile",
                 "animal_blurb": "The crowd at the Bone Market is simply roaring",
                 "animal_bonus": "10",
                 "animal_conditions": "have a non-human ribcage, one skull, one tail, no wings or fins, and either no arms and at most four legs, or two arms and two legs. You must also possess [[A Complete Account of Frogs, Toads, and Other Croaking Beasts]]"
             },
             "2": {
                 "value": "Amphibians",
-                "alias": "",
+                "alias": "an Amphibian",
                 "animal_blurb": "The Bone Market croaks with activity",
                 "animal_bonus": "10",
                 "animal_conditions": "have a non-human ribcage, one skull, four legs, and no tails, arms, wings, or fins. You must also possess [[A Complete Account of Frogs, Toads, and Other Croaking Beasts]]"
             },
             "3": {
                 "value": "Birds",
-                "alias": "",
+                "alias": "a Bird",
                 "animal_blurb": "It seems everyone has been dreaming feathers",
                 "animal_bonus": "10",
                 "animal_conditions": "have a non-human ribcage, at least one skull, two wings, two legs, at most one tail, and no arms or fins. You must also possess a [[Comprehensive Study of Avian Anatomies, Oneiric and Otherwise]]"
             },
             "4": {
                 "value": "Fish",
-                "alias": "",
+                "alias": "a Fish",
                 "animal_blurb": "Zailors swarm the Bone Market",
                 "animal_bonus": "15",
                 "animal_conditions": "have a non-human ribcage, one skull, at least two fins, at most one tail, and no arms, wings, or legs. You must also possess an [[Unexpurgated Accounting of the Anatomies of Aquatic Life-forms]]"
             },
             "5": {
                 "value": "Arachnids",
-                "alias": "",
+                "alias": "an Arachnid",
                 "animal_bonus": "15",
                 "animal_blurb": "Buyers are really eyeing the stalls",
                 "animal_conditions": "have a non-human ribcage, eight legs, at most one tail, and no heads, arms, wings, or fins. You must also possess a [[Survey of Arachnids and Insects Native to the Neath and Unterzee]]"
             },
             "6": {
                 "value": "Insects",
-                "alias": "",
+                "alias": "an Insect",
                 "animal_blurb": "The Bone Market is crawling with buyers",
                 "animal_bonus": "15",
                 "animal_conditions": "have a non-human ribcage, one head, six legs, at most four wings, and no tails, arms, or fins. You must also possess a [[Survey of Arachnids and Insects Native to the Neath and Unterzee]]"
             },
             "7": {
                 "value": "Primates",
-                "alias": "",
+                "alias": "one of various types of Primate",
                 "animal_blurb": "The Bone Market turns introspective!",
                 "animal_bonus": "10",
-                "animal_conditions": "have a human ribcage, one head, and either: two arms, two legs, and no wings, fins, or tails (Humanoid); four arms and no legs, wings, fins, or tails (Ape); four arms, one tail, and no legs, wings, or fins (Monkey)"
+                "animal_conditions": "have a humanoid ribcage, one head, and either: two arms, two legs, and no wings, fins, or tails (Humanoid); four arms and no legs, wings, fins, or tails (Ape); four arms, one tail, and no legs, wings, or fins (Monkey)"
             }
         }
     },
@@ -93,23 +105,72 @@
         "values": {
             "1": {
                 "value": "An Enthusiast in Skulls",
-                "alias": ""
+                "alias": "",
+                "pronoun": "He",
+                "verb": "is",
+                "adjective": "many-headed",
+                "requirements": "ones with at least 2 skulls",
+                "primary_reward": "Piece of Rostygold|Pieces of Rostygold",
+                "primary_scaling": "",
+                "secondary_reward": "Vital Intelligence",
+                "secondary_scaling": "(number of skeleton's heads - 1)^1.8",
+                "exhaustion": "4 units of [[Vital Intelligence]] rewarded"
             },
             "2": {
                 "value": "An Enterprising Boot Salesman",
-                "alias": ""
+                "alias": "",
+                "pronoun": "He",
+                "verb": "is",
+                "adjective": "many-legged, unthreatening",
+                "requirements": "ones with no Menace nor Amalgamy and at least 4 legs",
+                "primary_reward": "Whisper-Satin Scrap|Whisper-Satin Scraps",
+                "primary_scaling": "divided by 50",
+                "secondary_reward": "Ostentatious Diamond|Ostentatious Diamonds",
+                "secondary_scaling": "(number of skeleton's legs)^2.2",
+                "exhaustion": "(number of skeleton's legs)^2 divided by 100"
             },
             "3": {
                 "value": "An Ingenuous Malacologist",
-                "alias": ""
+                "alias": "",
+                "pronoun": "He",
+                "verb": "is",
+                "adjective": "tentacled",
+                "requirements": "ones with at least 4 tentacles",
+                "primary_reward": "Preserved Surface Blooms",
+                "primary_scaling": "divided by 250, plus 1,",
+                "secondary_reward": "Volume of Collated Research|Volumes of Collated Research",
+                "secondary_scaling": "(number of skeleton's tentacles)^2.2 divided by 5",
+                "exhaustion": "(number of skeleton's tentacles)^2 divided by 100"
             },
             "4": {
                 "value": "A Dreary Midnighter",
-                "alias": ""
+                "alias": "",
+                "pronoun": "He",
+                "verb": "is",
+                "adjective": "realistic",
+                "requirements": "ones with no Amalgamy nor Support for a Counter-church Theology; he also refuses to buy chimeras and Curators",
+                "primary_reward": "Fistful of Surface Currency|Fistfuls of Surface Currency",
+                "primary_scaling": "divided by 3, plus 100,",
+                "secondary_reward": "Vienna Opening",
+                "secondary_scaling": "one",
+                "exhaustion": ""
             },
             "5": {
                 "value": "A Colourful Phantasist",
-                "alias": ""
+                "alias": "",
+                "pronoun": "She",
+                "verb": "is",
+                "adjective": "",
+                "requirements": "",
+                "primary_reward": "",
+                "secondary_reward": "",
+                "secondary_scaling": "",
+                "exhaustion": "",
+                "items": [
+                    "Amalgamous skeletons",
+                    "Menacing skeletons",
+                    "Antique skeletons"
+                ]
             }
         }
     },
@@ -182,35 +243,35 @@
         "values": {
             "1": {
                 "value": "Correspondence Plaques",
-                "alias": "20 [[Correspondence Plaques|Correspondence Plaque]]"
+                "alias": "20 [[Correspondence Plaque|Correspondence Plaques]]"
             },
             "2": {
                 "value": "Unprovenanced Artefacts",
-                "alias": "4 [[Unprovenanced Artefacts|Unprovenanced Artefact]]"
+                "alias": "4 [[Unprovenanced Artefact|Unprovenanced Artefacts]]"
             },
             "3": {
                 "value": "Palimpsest Scraps",
-                "alias": "20 [[Palimpsest Scraps|Palimpsest Scrap]]"
+                "alias": "20 [[Palimpsest Scrap|Palimpsest Scraps]]"
             },
             "4": {
                 "value": "Mourning Candles",
-                "alias": "4 [[Mourning Candles|Mourning Candle]]"
+                "alias": "4 [[Mourning Candle|Mourning Candles]]"
             },
             "5": {
                 "value": "Glass Gazettes",
-                "alias": "4 [[Glass Gazettes|Glass Gazette]]"
+                "alias": "4 [[Glass Gazette|Glass Gazettes]]"
             },
             "6": {
                 "value": "Thirsty Bombazine Scraps",
-                "alias": "4 [[Thirsty Bombazine Scraps|Thirsty Bombazine Scrap]]"
+                "alias": "4 [[Thirsty Bombazine Scrap|Thirsty Bombazine Scraps]]"
             },
             "7": {
                 "value": "Knobs of Scintillack",
-                "alias": "4 [[Knobs of Scintillack|Knob of Scintillack]]"
+                "alias": "4 [[Knob of Scintillack|Knobs of Scintillack]]"
             },
             "8": {
                 "value": "Traces of Viric",
-                "alias": "20 [[Traces of Viric|Trace of Viric]]"
+                "alias": "20 [[Trace of Viric|Traces of Viric]]"
             }
         }
     },
@@ -244,20 +305,52 @@
                 "alias": "A Participant in the 1898 Election",
                 "slet": "Remember the Election of 1898",
                 "items": [
-                    "The [[Questions about the Dreams of Rubbery Men]] unique quality."
+                    "Questions about the Dreams of Rubbery Men"
                 ]
             },
             "7": {
                 "value": "7",
-                "alias": "Remember the Opening of Arbor"
+                "alias": "Et in Arbor Ego",
+                "slet": "Remember the Opening of Arbor",
+                "description": "a reverie of Arbor's opening to London during Hallowmas 1896 (2018)",
+                "items": [
+                    "An Ambassador",
+                    "In Arbor I Walked With",
+                    "A Clue from the Duchess",
+                    "A Clue from the Princess",
+                    "A Clue from the Widow"
+                ]
             },
             "8": {
                 "value": "8",
-                "alias": "Relive (or return to) a reverie of the Great Sink"
+                "alias": "When you Find Yourself in a Hole, Keep Digging",
+                "slet": "Relive the Great Sink of 1899",
+                "description": "a reverie of Mr Chimes' Grand Clearing-Out (aka the 2021 Estival event)",
+                "items": [
+                    "Sturdy Pick",
+                    "A Pre-Lapsarian Speaking Tube",
+                    "M. D_____' A_____ for _______: F____ Edition",
+                    "Polythreme Drinking Vessel",
+                    "A Poisoned Pen",
+                    "Wax-Hardened Boots",
+                    "A Reverie of Heroism",
+                    "Singed and Stained Work Gloves",
+                    "A Volunteer During the Great Sink of 1899"
+                ],
+                "mementos": "a [[Bottle of Morelways 1861 'Sporeburst']], an [[Unusually Loyal Map of London]], a [['Look Always to Love' Telescope]], or a [[Decemberist Pocketwatch]]"
             },
             "9": {
                 "value": "9",
-                "alias": "Relive (or reconstruct) the Museum of Prelapsarian History"
+                "alias": "Tears, Sphinxstone, and Limestone",
+                "slet": "Relive (or reconstruct) the Museum of Prelapsarian History",
+                "description": "a reverie of F.F. Gebrandt's Prelapsarian Exhibition (aka the 2022 Estival event)",
+                "items": [
+                    "Memory of a Miniature Museum",
+                    "An Initiate into the Perfumer's Arts",
+                    "Your Name in F.F. Gebrandt's Address Book",
+                    "A Memory of the Affair of the Ushabti"
+                ],
+                "mementos": "[[F.F. Gebrandt's Cylindrical Phénakistiscope]], a [[Mostly-Faithful Ushabti Replica (1:4 Scale)]], or an [[Inappropriately Sharp Mosasaur Skull]]"
             }
         }
     },
@@ -285,7 +378,7 @@
                 "value": "Freeze-and-Fall",
                 "alias": "",
                 "items": [
-                    "Fecund Amber",
+                    "Nodule of Fecund Amber",
                     "Irrigo Mirrorcatch Box",
                     "Pair of Irrigo Goggles",
                     "Ray-Drenched Cinder"
@@ -347,7 +440,7 @@
                 "items": [
                     "Elemental Secret",
                     "Coruscating Soul",
-                    "Forgotten Slippers",
+                    "Pair of Forgotten Spidersilk Slippers",
                     "Edicts of the First City"
                 ]
             },
@@ -357,7 +450,7 @@
                 "items": [
                     "Legenda Cosmogone",
                     "Coruscating Soul",
-                    "Forgotten Slippers",
+                    "Pair of Forgotten Spidersilk Slippers",
                     "Edicts of the First City"
                 ]
             },
@@ -367,7 +460,7 @@
                 "items": [
                     "Legenda Cosmogone",
                     "Reported Location of a One-Time Prince of Hell",
-                    "Forgotten Slippers",
+                    "Pair of Forgotten Spidersilk Slippers",
                     "Edicts of the First City"
                 ]
             },
@@ -385,7 +478,7 @@
                 "value": "Skitter-Scatter",
                 "alias": "",
                 "items": [
-                    "Fecund Amber",
+                    "Nodule of Fecund Amber",
                     "Reported Location of a One-Time Prince of Hell",
                     "Stainless Gloves",
                     "Vial of Tears of the Bazaar"
@@ -395,7 +488,7 @@
                 "value": "Dimmest-Dark",
                 "alias": "",
                 "items": [
-                    "Fecund Amber",
+                    "Nodule of Fecund Amber",
                     "Irrigo Mirrorcatch Box",
                     "Stainless Gloves",
                     "Vial of Tears of the Bazaar"
@@ -448,7 +541,7 @@
             "2": {
                 "value": "South",
                 "alias": "",
-                "item": "Poison-tipped Umbrella",
+                "item": "Poison-Tipped Umbrella",
                 "ratprice": "3,200"
             },
             "3": {
@@ -488,7 +581,7 @@
             "4": {
                 "value": "Winter",
                 "alias": "",
-                "item": "St Eligius' Beard Hairs"
+                "item": "Seven of St Eligius' Very Own Beard Hairs"
             }
         }
     },
