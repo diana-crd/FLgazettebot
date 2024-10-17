@@ -1,0 +1,11 @@
+certifi==2024.8.30
+charset-normalizer==3.3.2
+future==1.0.0
+idna==3.10
+oauthlib==3.2.2
+PyTumblr2==0.2.4
+requests==2.32.3
+requests-oauthlib==2.0.0
+setuptools==75.1.0
+urllib3==2.2.3
+wheel==0.44.0
