@@ -6,7 +6,7 @@
     "title": "Thursday's Gazette: Dreamy Recollections of the Past!",
 
     "generic intro": [
-        "(Hi! I'm a work-in-progress tumblr bot for Fallen London world qualities updates! I'm still very early in development but if you're seeing this post it means I'm working somewhat."
+        "The Waswood's river changes course yet again, now flowing to a different moment of London's history! Here's what may be found in its murky waters this week:\n\t<b>Further details on the current reverie and its details can be found on the Fallen London wiki at [[The Sacroboscan Calendar (Guide)]].</b>"
     ],
 
     "waswood_season": [
@@ -18,7 +18,7 @@
             "source": "none",
             "switch": true,
             "1_2_7_8_9": "Playing through this reverie will offer the possibility of obtaining the following qualities and/or items:",
-            "3": "Playing through this reveriew will offer the possibility of obtaining one of the following items (replaying this same event will not remove already-obtained items, allowing one to collect all available rewards over multiple visits):"
+            "3": "Playing through this reverie will offer the possibility of obtaining one of the following items (replaying this same event will not remove already-obtained items, allowing one to collect all available rewards over multiple visits):"
         },
         {
             "switch": true,
@@ -30,10 +30,6 @@
             "source": "value",
             "switch": true,
             "8_9": "Additionally it will allow you to obtain one of several mutually-exclusive mementos (meaning it will replace the one you may already have from having (re)lived through this event in the past): {mementos}."
-        },
-        {
-            "source": "none",
-            "text": "Further details on the current reverie and its details can be found on the Fallen London wiki at [[The Sacroboscan Calendar (Guide)]]."
         }
     ]
 }

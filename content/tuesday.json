@@ -12,7 +12,7 @@
     "title": "Tuesday's Gazette: The Bone Market and the far Khanate!",
 
     "generic intro": [
-        "Here are the updates for the Bone Market and Khanate WQs."
+        "Whims shift all across the Neath as traders of skeletons and intelligence alike move on to other interests. Here's everything a shrewd Londoner needs to know to take advantage of the latest market trends:\n\t<b>Detailed information on the Bone Market and skeleton construction in general can be found on the Fallen London wiki at [[Assembling a Skeleton (Guide)]]; similarly, an explanation of the spycraft of Khan's Heart can be found at [[Khaganian Intrigue (Guide)]]</b>."
     ],
     "BM_fluctuations": [
         {
@@ -67,13 +67,13 @@
     "khan_fascination": [
         {
             "source": "value",
-            "text": "In the far Khanate a certain Trifling Diplomat has become interested in {value}. He will pay for them in [[Assortment of Khaganian Coinage]] (equal to 1 plus the Approximate Value of Your Skeleton in Pennies divided by 50) and in [[Compromising Document|Compromising Documents]] (equal to {diplomat_reward})."
+            "text": "Far across the Zee in the Khanate's Copper Quarter a certain Trifling Diplomat has become interested in {value}. He will pay for them in [[Assortment of Khaganian Coinage]] (equal to 1 plus the Approximate Value of Your Skeleton in Pennies divided by 50) and in [[Compromising Document|Compromising Documents]] (equal to {diplomat_reward})."
         }
     ],
     "khan_emetics": [
         {
             "source": "value",
-            "text": "In the far Khanate the Precocious Engineer is selling [[Emetic Revelation|Emetic Revelations]] at the price of {name} each."
+            "text": "Meanwhile, in Khan's Heart, the Precocious Engineer is selling [[Emetic Revelation|Emetic Revelations]] at the price of {name} each."
         }
     ]
 }
