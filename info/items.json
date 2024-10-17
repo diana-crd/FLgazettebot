@@ -171,7 +171,7 @@
         "stats": {}
     },
     "Fecund Amber Tiara": {
-        "alias": "",
+        "alias": "Fecund Amber Tiara|Fecund Amber Tiaras",
         "ratprice": "2,800",
         "value": "",
         "type": "Hat",
@@ -325,7 +325,7 @@
         "perk": "grants +8 Watchful, -1 Persuasive, -1 Bizarre"
     },
     "Irrigo Frocksuit": {
-        "alias": "[[Strange-Shore Parabola Frock]] and [[Strange-Shore Parabola Suit|Suit]]",
+        "alias": "Strange-Shore Parabola Frock]] and [[Strange-Shore Parabola Suit|Suit",
         "ratprice": "5,000",
         "value": "",
         "type": "custom",
@@ -431,7 +431,7 @@
     },
     "Polythreme Drinking Vessel": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +1 Bizarre, +8 Persuasive",
         "type": "Weapon",
@@ -442,7 +442,7 @@
     },
     "M. D_____' A_____ for _______: F____ Edition": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +4 Watchful, +1 Zeefaring",
         "type": "Weapon",
@@ -453,15 +453,15 @@
     },
     "A Memory of the Affair of the Ushabti": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
-        "perk": "",
+        "perk": "unlocks the option to obtain [[A Stalking Stone Shadow Beyond the Glass]] during the Ushabti-Vessel Parabolan hunt",
         "type": "Quality",
         "stats": {}
     },
     "Wax-Hardened Boots": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +1 Respectable, +5 Watchful",
         "type": "Boots",
@@ -472,15 +472,15 @@
     },
     "A Volunteer During the Great Sink of 1899": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
-        "perk": "",
+        "perk": "demonstrates your commitment to helping the fine citizens of London",
         "type": "Quality",
         "stats": {}
     },
     "Sturdy Pick": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +4 Shadowy, +7 Dangerous, -1 Respectable, +1 Dreaded",
         "type": "Weapon",
@@ -493,7 +493,7 @@
     },
     "An Initiate into the Perfumer's Arts": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +5 Shadowy, +4 Dreaded, +1 Kataleptic Toxicology",
         "type": "Affiliation",
@@ -505,7 +505,7 @@
     },
     "Memory of a Miniature Museum": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +3 Dangerous, +1 Respectable",
         "type": "Affiliation",
@@ -516,7 +516,7 @@
     },
     "A Reverie of Heroism": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +2 Persuasive, +1 Respectable, +1 Bizarre",
         "type": "Affiliation",
@@ -528,7 +528,7 @@
     },
     "A Poisoned Pen": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +8 Dangerous, +1 Dreaded",
         "type": "Weapon",
@@ -539,7 +539,7 @@
     },
     "A Pre-Lapsarian Speaking Tube": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +4 Persuasive, -1 Shadowy",
         "type": "Weapon",
@@ -550,7 +550,7 @@
     },
     "Singed and Stained Work Gloves": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +8 Dangerous, +1 Bizarre, +1 Kataleptic Toxicology",
         "type": "Gloves",
@@ -562,7 +562,7 @@
     },
     "Your Name in F.F. Gebrandt's Address Book": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +5 Watchful, +1 Bizarre, +1 A Player of Chess",
         "type": "Affiliation",
@@ -574,7 +574,7 @@
     },
     "Pair of Forgotten Spidersilk Slippers": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "3,000",
         "kind": "",
         "perk": "grants +9 Shadowy, -1 Persuasive",
         "type": "Boots",
@@ -583,17 +583,9 @@
             "Persuasive": "-1"
         }
     },
-    "Questions about the Dreams of Rubbery Men": {
-        "alias": "",
-        "ratvalue": "",
-        "kind": "",
-        "perk": "",
-        "type": "Quality",
-        "stats": {}
-    },
     "Nodule of Fecund Amber": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "3,125",
         "kind": "",
         "perk": "",
         "type": "Item",
@@ -601,7 +593,7 @@
     },
     "Seven of St Eligius' Very Own Beard Hairs": {
         "alias": "",
-        "ratvalue": "",
+        "ratprice": "",
         "kind": "",
         "perk": "grants +2 Watchful, +1 Respectable, +1 Zeefaring",
         "type": "Affiliation",
@@ -609,6 +601,50 @@
             "Watchful": "+2",
             "Respectable": "+1",
             "Zeefaring": "+1"
+        }
+    },
+    "Viscount's Bejewelled Collar": {
+        "alias": "",
+        "ratprice": "",
+        "kind": "",
+        "perk": "grants +3 Persuasive, +1 Mithridacy",
+        "type": "Adornment",
+        "stats": {
+            "Persuasive": "+3",
+            "Mithridacy": "+1"
+        }
+    },
+    "Viscountess' Bejewelled Collar": {
+        "alias": "",
+        "ratprice": "",
+        "kind": "",
+        "perk": "grants +3 Dangerous, +1 Glasswork",
+        "type": "Adornment",
+        "stats": {
+            "Dangerous": "+3",
+            "Glasswork": "+1"
+        }
+    },
+    "Sinning Jenny's Forsaken Wimple": {
+        "alias": "",
+        "ratprice": "",
+        "kind": "",
+        "perk": "grants +2 Persuasive, +1 Watchful",
+        "type": "Hat",
+        "stats": {
+            "Persuasive": "+2",
+            "Watchful": "+1"
+        }
+    },
+    "Anonymous White Mask, Zee-Stained and Mildewy": {
+        "alias": "",
+        "ratprice": "",
+        "kind": "",
+        "perk": "grants +6 Shadowy, +2 Dreaded",
+        "type": "Hat",
+        "stats": {
+            "Shadowy": "+6",
+            "Dreaded": "+2"
         }
     }
 }

@@ -1,0 +1,78 @@
+{
+    "BM_fluctuations": {
+        "current_value": "3",
+        "last_updated": "20241015110512"
+    },
+    "BM_mania": {
+        "current_value": "6",
+        "last_updated": "20241015110512"
+    },
+    "BM_buyer": {
+        "current_value": "4",
+        "last_updated": "20241015110512"
+    },
+    "khan_fascination": {
+        "current_value": "10",
+        "last_updated": "20241015110512"
+    },
+    "khan_emetics": {
+        "current_value": "4",
+        "last_updated": "20241015110512"
+    },
+    "waswood_season": {
+        "current_value": "7",
+        "last_updated": "20241017120511"
+    },
+    "rat_presence": {
+        "current_value": "0",
+        "last_updated": "20241014110511"
+    },
+    "rat_season": {
+        "current_value": "3",
+        "last_updated": "20241014110511"
+    },
+    "rat_moon": {
+        "current_value": "1",
+        "last_updated": "20241014110511"
+    },
+    "rat_wind": {
+        "current_value": "1",
+        "last_updated": "20241014110511"
+    },
+    "rat_rlseason": {
+        "current_value": "3",
+        "last_updated": "20240903090511"
+    },
+    "demand_inscrutable": {
+        "current_value": "0",
+        "last_updated": "20240930111011"
+    },
+    "demand_intricate": {
+        "current_value": "0",
+        "last_updated": "20241014110511"
+    },
+    "demand_maudlin": {
+        "current_value": "1",
+        "last_updated": "20241014110511"
+    },
+    "demand_saintly": {
+        "current_value": "5",
+        "last_updated": "20241014110511"
+    },
+    "demand_soft": {
+        "current_value": "4",
+        "last_updated": "20241014110511"
+    },
+    "demand_tempestuous": {
+        "current_value": "1",
+        "last_updated": "20241014110511"
+    },
+    "demand_ruinous": {
+        "current_value": "3",
+        "last_updated": "20241014110511"
+    },
+    "demand_calculating": {
+        "current_value": "3",
+        "last_updated": "20241014110511"
+    }
+}

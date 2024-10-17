@@ -2,6 +2,7 @@
     "BM_fluctuations": {
         "name": "Bone Market Fluctuations:",
         "name/history": "Bone Market Fluctuations:/History",
+        "all_values": "range 1 3",
         "alias": "",
         "values": {
             "1": {
@@ -45,6 +46,7 @@
     "BM_mania": {
         "name": "Zoological Mania:",
         "name/history": "Zoological Mania:/History",
+        "all_values": "range 1 7",
         "alias": "",
         "values": {
             "1": {
@@ -101,6 +103,7 @@
     "BM_buyer": {
         "name": "Occasional Buyer:",
         "name/history": "Occasional Buyer:/History",
+        "all_values": "range 1 5",
         "alias": "",
         "values": {
             "1": {
@@ -177,6 +180,7 @@
     "khan_fascination": {
         "name": "The Diplomat's Current Fascination",
         "name/history": "The Diplomat's Current Fascination/History",
+        "all_values": "range 1 11",
         "alias": "",
         "values": {
             "1": {
@@ -239,6 +243,7 @@
     "khan_emetics": {
         "name": "The Engineer's Current Need:",
         "name/history": "The Engineer's Current Need:/History",
+        "all_values": "range 1 8",
         "alias": "",
         "values": {
             "1": {
@@ -278,44 +283,62 @@
     "waswood_season": {
         "name": "Season of the Sacroboscan Calendar",
         "name/history": "Season of the Sacroboscan Calendar/History",
+        "all_values": "range 1 9",
         "alias": "",
         "values": {
             "1": {
                 "value": "1",
-                "alias": "Remember (or return to) the Mayorality of Sinning Jenny"
+                "alias": "The Mayoral Visit of Sinning Jenny",
+                "slet": "Remember the Mayorality of Sinning Jenny",
+                "description": "a reverie of the Fruits of the Zee festival of 1894 (aka 2016)",
+                "items": [
+                    "Sinning Jenny's Forsaken Wimple"
+                ]
             },
             "2": {
                 "value": "2",
-                "alias": "Remember (or return to) the Mayorality of Virginia"
+                "alias": "Virginia at the Fruits of the Zee",
+                "slet": "Remember the Mayorality of Virginia",
+                "description": "a reverie of the Fruits of the Zee festival of 1897 (aka 2019)",
+                "items": [
+                    "Anonymous White Mask, Zee-Stained and Mildewy"
+                ]
             },
             "3": {
                 "value": "3",
-                "alias": "Remember (or return to) the Mayorality of the Viscountess"
+                "alias": "The Viscountess at the Fruits of the Zee",
+                "slet": "Remember the Mayorality of the Viscountess",
+                "description": "a reverie of the Fruits of the Zee festival of 1898 (aka 2020)",
+                "items": [
+                    "Viscount's Bejewelled Collar",
+                    "Viscountess' Bejewelled Collar"
+                ]
             },
             "4": {
                 "value": "4",
-                "alias": "Remember the Election of 1896"
+                "alias": "A Participant in the 1896 Election",
+                "slet": "Remember the Election of 1896",
+                "description": "a reverie of the Mayoral Election of 1896 (aka 2018)"
             },
             "5": {
                 "value": "5",
-                "alias": "Remember the Election of 1897"
+                "alias": "A Participant in the 1897 Election",
+                "slet": "Remember the Election of 1897",
+                "description": "a reverie of the Mayoral Election of 1897 (aka 2019)"
             },
             "6": {
                 "value": "6",
                 "alias": "A Participant in the 1898 Election",
                 "slet": "Remember the Election of 1898",
-                "items": [
-                    "Questions about the Dreams of Rubbery Men"
-                ]
+                "description": "a reverie of the Mayoral Election of 1898 (aka 2020)"
             },
             "7": {
                 "value": "7",
                 "alias": "Et in Arbor Ego",
                 "slet": "Remember the Opening of Arbor",
-                "description": "a reverie of Arbor's opening to London during Hallowmas 1896 (2018)",
+                "description": "a reverie of Arbor's opening to London during the Hallowmas of 1896 (2018)",
                 "items": [
                     "An Ambassador",
-                    "In Arbor I Walked With",
                     "A Clue from the Duchess",
                     "A Clue from the Princess",
                     "A Clue from the Widow"
@@ -342,7 +365,7 @@
             "9": {
                 "value": "9",
                 "alias": "Tears, Sphinxstone, and Limestone",
-                "slet": "Relive (or reconstruct) the Museum of Prelapsarian History",
+                "slet": "Relive the Museum of Prelapsarian History",
                 "description": "a reverie of F.F. Gebrandt's Prelapsarian Exhibition (aka the 2022 Estival event)",
                 "items": [
                     "Memory of a Miniature Museum",
@@ -357,6 +380,7 @@
     "rat_presence": {
         "name": "The Rat Market (Quality)",
         "name/history": "The Rat Market (Quality)/History",
+        "all_values": "range 0 1",
         "alias": "",
         "values": {
             "0": {
@@ -372,6 +396,7 @@
     "rat_season": {
         "name": "The Rat-Season:",
         "name/history": "The Rat-Season:/History",
+        "all_values": "range 3 14",
         "alias": "",
         "values": {
             "3": {
@@ -499,6 +524,7 @@
     "rat_moon": {
         "name": "Phase of the Rat-Moon:",
         "name/history": "Phase of the Rat-Moon:/History",
+        "all_values": "range 1 4",
         "alias": "",
         "values": {
             "1": {
@@ -530,6 +556,7 @@
     "rat_wind": {
         "name": "Direction of the Rat-Wind:",
         "name/history": "Direction of the Rat-Wind:/History",
+        "all_values": "range 1 4",
         "alias": "",
         "values": {
             "1": {
@@ -561,6 +588,7 @@
     "rat_rlseason": {
         "name": "The False-Season:",
         "name/history": "The False-Season:/History",
+        "all_values": "range 1 4",
         "alias": "",
         "values": {
             "1": {
@@ -588,6 +616,7 @@
     "demand_inscrutable": {
         "name": "Inscrutable Demand",
         "name/history": "Inscrutable Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Whiskery Bibliophile",
         "items": [
                     "Uncanny Incunabulum",
@@ -598,6 +627,7 @@
     "demand_intricate": {
         "name": "Intricate Demand",
         "name/history": "Intricate Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Belligerent Bombardier",
         "items": [
                     "Unlawful Device",
@@ -607,6 +637,7 @@
     "demand_maudlin": {
         "name": "Maudlin Demand",
         "name/history": "Maudlin Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Sinistral Poet",
         "items": [
                     "Captivating Ballad",
@@ -616,6 +647,7 @@
     "demand_saintly": {
         "name": "Saintly Demand",
         "name/history": "Saintly Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Diminutive Vicar",
         "items": [
                     "Ratty Reliquary",
@@ -625,6 +657,7 @@
     "demand_soft": {
         "name": "Soft Demand",
         "name/history": "Soft Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Feathered Dressmaker",
         "items": [
                     "Parabola-Linen Scrap",
@@ -634,6 +667,7 @@
     "demand_tempestuous": {
         "name": "Tempestuous Demand",
         "name/history": "Tempestuous Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Shrivelled Celebrant",
         "items": [
                     "Storm-Threnody",
@@ -643,6 +677,7 @@
     "demand_ruinous": {
         "name": "Ruinous_Demand",
         "name/history": "Ruinous_Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Scabrous Sibyl",
         "items": [
                     "Dreadful Surmise",
@@ -654,19 +689,12 @@
     "demand_calculating": {
         "name": "Calculating_Demand",
         "name/history": "Calculating_Demand/History",
+        "all_values": "range 0 5",
         "alias": "The Grey Tipster",
         "items": [
                     "Vital Intelligence",
                     "Corresponding Sounder",
                     "Paired Mates"
                 ]
-    },
-    "demand":{
-        "0": "Unavailable, but it might show up next week",
-        "1": "Newly available",
-        "2": "Available, but it will leave next week",
-        "3": "Unavailable, on its first week of cooldown",
-        "4": "Unavailable, on its second week of cooldown",
-        "5": "Unavailable, on its third week of cooldown"
     }
 }

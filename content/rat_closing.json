@@ -1,8 +1,26 @@
 {
+    "qualities": {
+        "to_check": [
+            "rat_season", 
+            "rat_moon", 
+            "rat_wind", 
+            "rat_rlseason"
+        ],
+        "other": [
+            "demand_inscrutable", 
+            "demand_intricate", 
+            "demand_maudlin", 
+            "demand_saintly", 
+            "demand_soft", 
+            "demand_tempestuous", 
+            "demand_ruinous", 
+            "demand_calculating"
+        ]
+    },
+    
     "title": "Monday's Gazette: The Rat Market closes its doors!",
 
     "generic intro": [
-        "(Hi! I'm a work-in-progress tumblr bot for Fallen London world qualities updates! I'm still very early in development but if you're seeing this post it means I'm working somewhat.",
         "The Rat Market is once again closed! Here's what to expect for next week:"
     ],
 
@@ -48,31 +66,15 @@
             "switch": true,
             "source": "items",
             "type": "u",
-            "1": "[[{name}]], for at least {ratprice} Rat Shillings.",
-            "2": "[[{name}]], for at least {ratprice} Rat Shillings."
+            "1_2": "[[{name}]], for at least {ratprice} Rat Shillings each."
         }
     ],
 
     "demand_tempestuous": [
         {
             "switch": true,
-            "source": "value",
-            "1": "{alias} has just arrived and is buying the following items:",
-            "2": "{alias}, leaving soon, is buying the following items:",
-            "3": "{alias} has departed from the Rat Market, and won't be seen again for at least 3 weeks."
-        },
-        {
-            "switch": true,
-            "source": "items",
-            "type": "u",
-            "1": "[[{name}]], for at least {ratprice} Rat Shillings.",
-            "2": "[[{name}]], for at least {ratprice} Rat Shillings."
-        },
-        {
-            "switch": true,
-            "source": "items",
-            "1": "Additionally, the Shrivelled Celebrant is selling [[Gant-filled Mirrorcatch Boxes|Gant-filled Mirrorcatch Box]] for 3,750 Rat Shillings.",
-            "2": "Additionally, the Shrivelled Celebrant is selling [[Gant-filled Mirrorcatch Boxes|Gant-filled Mirrorcatch Box]] for 3,750 Rat Shillings."
+            "source": "none",
+            "1_2": "Additionally, the Shrivelled Celebrant will be selling [[Gant-filled Mirrorcatch Boxes|Gant-filled Mirrorcatch Box]] for 3,750 Rat Shillings."
         }
     ]
 

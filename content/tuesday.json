@@ -1,77 +1,79 @@
 {
-    "intro": [
+    "qualities": {
+        "to_check": [
+            "BM_fluctuations",
+            "BM_mania",
+            "BM_buyer",
+            "khan_fascination",
+            "khan_emetics"
+        ],
+        "other": []
+    },
+    "title": "Tuesday's Gazette: The Bone Market and the far Khanate!",
+
+    "generic intro": [
+        "Here are the updates for the Bone Market and Khanate WQs."
+    ],
+    "BM_fluctuations": [
         {
-        "type": "text",
-        "subtype": "heading1",
-        "text": "Tuesday's Gazette: The Bone Market and the far Khanate"
+            "switch": true,
+            "source": "none",
+            "1": "The Bone Market looks to the past! This week's fad is <b>Antique skeletons</b>:",
+            "2": "The Bone Market is just oozing with interest! This week's fad is <b>Amalgamous skeletons</b>:",
+            "3": "A taste for the macabre invests the Bone Market! This week's fad is <b>Menacing skeletons</b>:"
         },
         {
-            "type": "text",
-            "text": "These are the updates for the Bone Market and Khanate WQs."
+            "source": "value",
+            "type": "u",
+            "text": "{linear_buyer} will pay out {linear_reward}"  
+        },
+        {
+            "source": "value",
+            "type": "u",
+            "text": "{mult_buyer1} will pay out additional {mult_reward1} equal to half the skeleton's {value} (rounding the total secondary reward to the nearest even number)."  
+        },
+        {
+            "source": "value",
+            "type": "u",
+            "text": "{mult_buyer2} will pay out additional {mult_reward2} equal to half the skeleton's {value} (rounding the total secondary reward to the nearest even number)."  
+        },
+        {
+            "source": "value",
+            "type": "u",
+            "text": "{quad_buyer} will pay out a number of {quad_reward} times {value}^(2.1)."  
         }
     ],
-    "BM_fluctuations": {
-        "1": [
-            {
-                "type": "text",
-                "text": "Antiquity is cool now."
-                }
-        ],
-        "2": [
-            {
-                "type": "text",
-                "text": "Amalgamy is cool now."
-                }
-        ],
-        "3": [
-            {
-                "type": "text",
-                "text": "Menace is cool now."
-                }
-        ]
-    },
-    "BM_mania": {
-        "1": [
-            {
-                "type": "text",
-                "text": "Reptiles are cool and you make them like this."
-                }
-        ],
-        "2": [
-            {
-                "type": "text",
-                "text": "Amphibians are cool and you make them like this."
-                }
-        ],
-        "3": [
-            {
-                "type": "text",
-                "text": "Birds are cool and you make them like this."
-                }
-        ],
-        "4": [
-            {
-                "type": "text",
-                "text": "Fish are cool and you make them like this."
-                }
-        ],
-        "5": [
-            {
-                "type": "text",
-                "text": "Arachnids are cool and you make them like this."
-                }
-        ],
-        "6": [
-            {
-                "type": "text",
-                "text": "Insects are cool and you make them like this."
-                }
-        ],
-        "7": [
-            {
-                "type": "text",
-                "text": "Primates are cool and you make them like this."
-                }
-        ]
-    }
+    "BM_mania": [
+        {
+            "source": "value",
+            "text": "{animal_blurb}! This week's zoological mania is for skeletal {value}, which will receive a Zoological Mania Bonus equal to {animal_bonus}% their Approximate Value in Pennies. To declare a skeleton {alias} it must {animal_conditions}."
+        }
+    ],
+    "BM_buyer": [
+        {   
+            "switch": "true",
+            "source": "value",
+            "1_2_3": "{value} has been seen roaming the Bone Market's stalls! {pronoun} {verb} looking for {adjective} skeletons (specifically, {requirements}). {pronoun} will pay out in [[{primary_reward}]] equal to your skeleton's value {primary_scaling} (including the Zoological Mania bonus, if any) and in [[{secondary_reward}]] equal to {secondary_scaling}. This buyer is locked out by having 4 Exhaustion or more, and will increase it by 1 point for every {exhaustion}.",
+            "4": "{value} has been seen roaming the Bone Market's stalls! {pronoun} {verb} looking for {adjective} skeletons (specifically, {requirements}). {pronoun} will pay out in [[{primary_reward}]] equal to your skeleton's value {primary_scaling} (including the Zoological Mania bonus, if any) and will also throw in {secondary_scaling} [[{secondary_reward}]] as a bonus. This buyer is unaffected by Exhaustion.",
+            "5": "A Colourful Phantasist has been seen roaming the Bone Market's stalls! She is looking for striking and outlandish skeletons (specifically, ones with at least 2 Implausibility and 4 in one of Antiquity, Amalgamy, or Menace). She can pay out in a variety of different items depeding on the sell option. This buyer is locked out by having 4 Exhaustion or more, and will increase it by 1 point for every 20 units of secondary payout. The possible sell options are:"
+        },
+        {
+            "switch": "true",
+            "source": "items",
+            "type": "u",
+            "5": "{value} - ones with at least 4 {quality}; she pays out in [[{primary_reward}]] equal to your skeleton's value (including the Zoological Mania bonus, if any) divided by 50, plus 2, and in [[{secondary_reward}]] equal to {quality} times Implausibility, plus 1."
+        }
+    ],
+    "khan_fascination": [
+        {
+            "source": "value",
+            "text": "In the far Khanate a certain Trifling Diplomat has become interested in {value}. He will pay for them in [[Assortment of Khaganian Coinage]] (equal to 1 plus the Approximate Value of Your Skeleton in Pennies divided by 50) and in [[Compromising Document|Compromising Documents]] (equal to {diplomat_reward})."
+        }
+    ],
+    "khan_emetics": [
+        {
+            "source": "value",
+            "text": "In the far Khanate the Precocious Engineer is selling [[Emetic Revelation|Emetic Revelations]] at the price of {name} each."
+        }
+    ]
 }

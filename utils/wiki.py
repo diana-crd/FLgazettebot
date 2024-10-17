@@ -8,17 +8,17 @@ from time import sleep
 api_endpoint = "https://fallenlondon.wiki/w/api.php"
 
 headers = {
-    'User-Agent': 'FLGazetteBot/0.1 python requests',
+    'User-Agent': 'FLGazetteBot/1.0 python requests',
     'From': "carduccidiana1@gmail.com"}
 
 
-rgx_string = (r'<section begin=\\"Current Value\\"/>(\d+)<section end=\\"Current Value\\"/>\|'
-              r'<section begin=\\"Last Updated\\"/>(\d+)<section end=\\"Last Updated\\"/>')
+rgx_string = (r'<section begin="Current Value"/>(\d+)<section end="Current Value"/>\|'
+              r'<section begin="Last Updated"/>(\d+)<section end="Last Updated"/>')
 qvalue_string = r"Value(\d+) = ([ \-\w]+)\\n"
 equip_string = r"Effects(\d+) = {{IL\|([ \-\w]+)}} ([\-\+\d]+)"
 item_type_string = r"Item Type = ([ \-\w]+)"
 alt_item_type_string = r"{{(\w+)"
-redirect_string = r"\[\[([ \-\w]+)\]\]"
+redirect_string = r"\[\[([\(\)_,:.' \-\w]+)\]\]"
 
 with open("info/pagetitle.json") as f:
     wikipages: dict[str, str] = json.load(f)
@@ -126,7 +126,7 @@ def dump_items():
     with open("info/items.json") as f:
         items_dict = json.load(f)
 
-    default_dict = {"alias": "", "ratvalue": "", "kind" :"", "perk": ""}
+    default_dict = {"alias": "", "ratprice": "", "kind" :"", "perk": ""}
 
     for quality, quality_dict in wikidict.items():
         if quality == "demand":
@@ -149,7 +149,11 @@ def dump_items():
 def parse_current_value(txt):
 
     re_parsed = search(rgx_string, txt)
-    current_value = re_parsed.group(1)
+    try:
+        current_value = re_parsed.group(1)
+    except:
+        print(txt)
+        raise AttributeError()
     last_update = re_parsed.group(2)
     return current_value, last_update
 
@@ -167,6 +171,7 @@ def get_current_value(quality):
     params.update(page=wikidict[quality]["name/history"])
     wiki_req = requests.get(url=api_endpoint, params=params, headers=headers)
     #TODO: catch bad requests
+
     wiki_txt = wiki_req.json()["parse"]["wikitext"]["*"]
     value_update = parse_current_value(wiki_txt)
 
@@ -183,9 +188,32 @@ def get_latest_values(qualities):
     
     return values_dict, min_update
 
+def get_current_values(*qualities):
 
+    if isfile("current_values.json"):
+        with open("current_values.json") as f:
+            prev_dict = json.load(f)
+    else:
+        prev_dict = {}
+    
+    if not qualities:
+        qualities = wikipages.keys()
+
+    current_dict = {}
+
+    for quality in qualities:
+        cval, last_update = get_current_value(quality)
+        current_dict[quality] = dict(current_value=cval, last_updated=last_update)
+    
+    prev_dict.update(current_dict)
+
+    with open("current_values.json", 'w', encoding='utf-8') as f:
+        json.dump(prev_dict, f, ensure_ascii=False, indent=4)
+
+    return current_dict
 
 if __name__ == "__main__":
-    parse_quality_values()
-    dump_items()
-    parse_all_stats()
+    # parse_quality_values()
+    # dump_items()
+    # parse_all_stats()
+    get_current_values()

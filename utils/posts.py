@@ -1,5 +1,5 @@
 import json
-from re import finditer
+from re import finditer, UNICODE
 
 # from utils import wiki
 
@@ -18,7 +18,7 @@ def open_post(json_path):
         post_dict = json.load(f)
 
     for qual, item in post_dict.items():
-        if qual in ["title", "generic intro"]:
+        if qual in ["qualities", "title", "generic intro"]:
             continue
 
         for block in item:
@@ -26,6 +26,14 @@ def open_post(json_path):
                 block["type"] = "plain"
             if not "switch" in block.keys():
                 block["switch"] = False
+
+    if "demand_generic" in post_dict.keys():
+        demands = [quality for quality in wiki_dict.keys() if "demand" in quality]
+        for demand in demands:
+            if demand in post_dict.keys():
+                post_dict[demand] = [*post_dict["demand_generic"], *post_dict[demand]]
+            else:
+                post_dict[demand] = post_dict["demand_generic"]
 
     return post_dict
 
@@ -105,16 +113,18 @@ def format_quality(section, quality_name, quality_value):
             content.append(format_block(text, block["type"]))
 
     return content
+
+
 def format_wikiurl(string: str):
-    rgx_simple = r"\[\[([ \-\w]+)\]\]"
-    rgx_alias = r"\[\[([ \-\w]+)\|([ \-\w]+)\]\]"
-    simple_links = finditer(rgx_simple, string)
+    rgx_simple = r"\[\[([\(\)_ \-\w]+)\]\]"
+    rgx_alias = r"\[\[([\(\)_ \-\w]+)\|([\(\)_ \-\w]+)\]\]"
+    simple_links = finditer(rgx_simple, string, UNICODE)
     for match in simple_links:
         url = wiki_url + match.group(1)
         href = f"<a href=\"{url}\">{match.group(1)}</a>"
         string = string.replace(match.group(0), href)
 
-    alias_links = finditer(rgx_alias, string)
+    alias_links = finditer(rgx_alias, string, UNICODE)
     for match in alias_links:
         url = wiki_url + match.group(1)
         href = f"<a href=\"{url}\">{match.group(2)}</a>"
@@ -122,16 +132,16 @@ def format_wikiurl(string: str):
 
     return string
 
-def format_html(block: dict):
-    rgx_bold = r"<b>([, \-\w\d']+)</b>"
+def format_npfhtml(block: dict):
+    rgx_bold = r"<b>([,() \-\w\d']+)</b>"
 
     string = block["text"]
-    if "formatting" in block.keys():
-        formatting = block["formatting"]
+    if (not "formatting" in block.keys()) or (not block["formatting"]):
+        formatting = []        
     else:
-        formatting = []
+        formatting = block["formatting"]
 
-    bold_text = finditer(rgx_bold, string)
+    bold_text = finditer(rgx_bold, string, UNICODE)
     for match in bold_text:
         start = string.find(match.group(0))
         end = start + len(match.group(1))
@@ -150,16 +160,16 @@ def format_html(block: dict):
 
 
 def format_npfwikiurl(block: dict):
-    rgx_simple = r"\[\[([, \-\w']+)\]\]"
-    rgx_alias = r"\[\[([, \-\w']+)\|([, \-\w']+)\]\]"
+    rgx_simple = r"\[\[([\(\)_,:.' \-éèòàù\w]+)\]\]"
+    rgx_alias = r"\[\[([\(\)_,:.' \-éèòàù\w]+)\|([\(\)_,:.' \-éèòàù\w]+)\]\]"
 
     if "formatting" in block.keys():
         formatting = block["formatting"]
     else:
         formatting = []
 
-    string = block["text"]
-    simple_links = finditer(rgx_simple, string)
+    string: str = block["text"]
+    simple_links = finditer(rgx_simple, string, UNICODE)
 
     for match in simple_links:
         url = wiki_url + match.group(1).replace(" ", "_")
@@ -172,11 +182,10 @@ def format_npfwikiurl(block: dict):
             "url": url
         })
         update_npformatting(formatting, prev_length=len(match.group(0)))
-        print(formatting[-1])
 
-        string = string.replace(match.group(0), match.group(1))
+        string = string.replace(match.group(0), match.group(1), 1)
 
-    alias_links = finditer(rgx_alias, string)
+    alias_links = finditer(rgx_alias, string, UNICODE)
     for match in alias_links:
         url = wiki_url + match.group(1).replace(" ", "_")
         start = string.find(match.group(0))
@@ -187,13 +196,27 @@ def format_npfwikiurl(block: dict):
             "type": "link",
             "url": url
         })
-        print(formatting[-1])
         update_npformatting(formatting, prev_length=len(match.group(0)))
         string = string.replace(match.group(0), match.group(2))
 
     block["text"] = string
     block["formatting"] = formatting
 
+def format_npfall(content):
+    for block in content:
+        if "[[" in block["text"]:
+            format_npfwikiurl(block)
+        if "<" in block["text"]:
+            format_npfhtml(block)
+        trim_brackets(block)
+
+def trim_brackets(block):
+
+    if block["text"][:2] == "[[":
+        block["text"] = block["text"][2:]
+        for format in block["formatting"]:
+            format["start"] -= 2
+            format["end"] -= 2
 
 def update_npformatting(formatting, prev_length):
     start = formatting[-1]["start"]
@@ -205,19 +228,16 @@ def update_npformatting(formatting, prev_length):
             format_item["end"] -= shift
 
  
-def test_quality(client, blogname, section, quality):
-    content = [{
-        "type": "text",
-        "subtype": "heading1",
-        "text": f"{quality} post formatting test"
-        }]
-    for value in wiki_dict[quality]["values"].keys():
+def test_quality(section, quality):
+
+    content = []
+    quality_range = wiki_dict[quality]["all_values"].split(" ")
+    print(quality_range)
+    quality_values = range(int(quality_range[1]), 1 + int(quality_range[2]))
+
+    for int_value in quality_values:
+        value = str(int_value)
         nu_block = format_quality(section, quality, value)
         if nu_block: content.extend(nu_block)
     
-    tags = [blogname, "fallen london", "test"]
-    for block in content:
-        if "[[" in block["text"]:
-            format_npfwikiurl(block)
-    result = client.create_post(blogname, content=content, tags=tags, state="draft")
-    return result
+    return content

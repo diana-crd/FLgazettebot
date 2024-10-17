@@ -3,354 +3,67 @@
         "name": "Bone Market Fluctuations:",
         "name/history": "Bone Market Fluctuations:/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "Antiquity",
-                "alias": ""
-            },
-            "2": {
-                "name": "Amalgamy",
-                "alias": ""
-            },
-            "3": {
-                "name": "Menace",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "BM_mania": {
         "name": "Zoological Mania:",
         "name/history": "Zoological Mania:/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "Reptiles",
-                "alias": ""
-            },
-            "2": {
-                "name": "Amphibians",
-                "alias": ""
-            },
-            "3": {
-                "name": "Birds",
-                "alias": ""
-            },
-            "4": {
-                "name": "Fish",
-                "alias": ""
-            },
-            "5": {
-                "name": "Arachnids",
-                "alias": ""
-            },
-            "6": {
-                "name": "Insects",
-                "alias": ""
-            },
-            "7": {
-                "name": "Primates",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "BM_buyer": {
         "name": "Occasional Buyer:",
         "name/history": "Occasional Buyer:/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "An Enthusiast in Skulls",
-                "alias": ""
-            },
-            "2": {
-                "name": "An Enterprising Boot Salesman",
-                "alias": ""
-            },
-            "3": {
-                "name": "An Ingenuous Malacologist",
-                "alias": ""
-            },
-            "4": {
-                "name": "A Dreary Midnighter",
-                "alias": ""
-            },
-            "5": {
-                "name": "A Colourful Phantasist",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "khan_fascination": {
         "name": "The Diplomat's Current Fascination",
         "name/history": "The Diplomat's Current Fascination/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "Amalgamous skeletons",
-                "alias": ""
-            },
-            "2": {
-                "name": "Antique skeletons",
-                "alias": ""
-            },
-            "3": {
-                "name": "Menacing skeletons",
-                "alias": ""
-            },
-            "4": {
-                "name": "Skeletons with multiple heads",
-                "alias": ""
-            },
-            "5": {
-                "name": "Skeletons with a surfeit of legs",
-                "alias": ""
-            },
-            "6": {
-                "name": "Fossilized fish",
-                "alias": ""
-            },
-            "7": {
-                "name": "Ancient arachnids",
-                "alias": ""
-            },
-            "8": {
-                "name": "Prehistoric insects",
-                "alias": ""
-            },
-            "9": {
-                "name": "Primaeval birds",
-                "alias": ""
-            },
-            "10": {
-                "name": "Ancient amphibians",
-                "alias": ""
-            },
-            "11": {
-                "name": "Reptilian fossils",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "khan_emetics": {
         "name": "The Engineer's Current Need:",
         "name/history": "The Engineer's Current Need:/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "Correspondence Plaques",
-                "alias": ""
-            },
-            "2": {
-                "name": "Unprovenanced Artefacts",
-                "alias": ""
-            },
-            "3": {
-                "name": "Palimpsest Scraps",
-                "alias": ""
-            },
-            "4": {
-                "name": "Mourning Candles",
-                "alias": ""
-            },
-            "5": {
-                "name": "Glass Gazettes",
-                "alias": ""
-            },
-            "6": {
-                "name": "Thirsty Bombazine Scraps",
-                "alias": ""
-            },
-            "7": {
-                "name": "Knobs of Scintillack",
-                "alias": ""
-            },
-            "8": {
-                "name": "Traces of Viric",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "waswood_season": {
         "name": "Season of the Sacroboscan Calendar",
         "name/history": "Season of the Sacroboscan Calendar/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "1",
-                "alias": ""
-            },
-            "2": {
-                "name": "2",
-                "alias": ""
-            },
-            "3": {
-                "name": "3",
-                "alias": ""
-            },
-            "4": {
-                "name": "4",
-                "alias": ""
-            },
-            "5": {
-                "name": "5",
-                "alias": ""
-            },
-            "6": {
-                "name": "6",
-                "alias": ""
-            },
-            "7": {
-                "name": "7",
-                "alias": ""
-            },
-            "8": {
-                "name": "8",
-                "alias": ""
-            },
-            "9": {
-                "name": "9",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "rat_presence": {
         "name": "The Rat Market (Quality)",
         "name/history": "The Rat Market (Quality)/History",
         "alias": "",
-        "values": {
-            "0": {
-                "name": "Closed",
-                "alias": ""
-            },
-            "1": {
-                "name": "Open",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "rat_season": {
         "name": "The Rat-Season:",
         "name/history": "The Rat-Season:/History",
         "alias": "",
-        "values": {
-            "3": {
-                "name": "Freeze-and-Fall",
-                "alias": ""
-            },
-            "4": {
-                "name": "Lying-Longing",
-                "alias": ""
-            },
-            "5": {
-                "name": "Candle-Canker",
-                "alias": ""
-            },
-            "6": {
-                "name": "Wink-and-Wane",
-                "alias": ""
-            },
-            "7": {
-                "name": "Vial-Vane",
-                "alias": ""
-            },
-            "8": {
-                "name": "Take-and-Toil",
-                "alias": ""
-            },
-            "9": {
-                "name": "Wine-Whisper",
-                "alias": ""
-            },
-            "10": {
-                "name": "Rise-and-Rake",
-                "alias": ""
-            },
-            "11": {
-                "name": "Nitre-Knife",
-                "alias": ""
-            },
-            "12": {
-                "name": "Kifer-Caitiff",
-                "alias": ""
-            },
-            "13": {
-                "name": "Skitter-Scatter",
-                "alias": ""
-            },
-            "14": {
-                "name": "Dimmest-Dark",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "rat_moon": {
         "name": "Phase of the Rat-Moon:",
         "name/history": "Phase of the Rat-Moon:/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "Blue",
-                "alias": ""
-            },
-            "2": {
-                "name": "Soft",
-                "alias": ""
-            },
-            "3": {
-                "name": "Hard",
-                "alias": ""
-            },
-            "4": {
-                "name": "Runny",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "rat_wind": {
         "name": "Direction of the Rat-Wind:",
         "name/history": "Direction of the Rat-Wind:/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "East",
-                "alias": ""
-            },
-            "2": {
-                "name": "South",
-                "alias": ""
-            },
-            "3": {
-                "name": "West",
-                "alias": ""
-            },
-            "4": {
-                "name": "North",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "rat_rlseason": {
         "name": "The False-Season:",
         "name/history": "The False-Season:/History",
         "alias": "",
-        "values": {
-            "1": {
-                "name": "Spring",
-                "alias": ""
-            },
-            "2": {
-                "name": "Summer",
-                "alias": ""
-            },
-            "3": {
-                "name": "Autumn",
-                "alias": ""
-            },
-            "4": {
-                "name": "Winter",
-                "alias": ""
-            }
-        }
+        "values": {}
     },
     "demand_inscrutable": {
         "name": "Inscrutable Demand",
