@@ -75,7 +75,7 @@ def test_post(day, quality=None, draft_post=True):
         if not draft_post:
             for block in content:
                 print(block)
-                print(f"Text length: {len(block["text"])}")
+                print(f"Text length: {len(block['text'])}")
         
 
 
