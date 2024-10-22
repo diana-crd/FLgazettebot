@@ -100,6 +100,7 @@ def wq_update():
 
     time_update = time_str + "110000"
     # time_update = "00000000110000"
+    print(time_update)
 
     template_path = f"content/{wq_templates[day]}.json"
     post_template = posts.open_post(template_path)
@@ -108,13 +109,19 @@ def wq_update():
     to_check = post_template["qualities"]["to_check"]
     other_qualities = post_template["qualities"]["other"]
     qualities = to_check + other_qualities
-    
+
+    print(f"{day} update, checking ", end="")
+    for quality in to_check:
+        print(f"{quality}, ", end="")
+    print("\b\b")
+
     while True:
         
         current_values = wiki.get_current_values(*to_check)
-        for quality_updates in current_values.values():
+        for quality, quality_updates in current_values.items():
             last_updated = quality_updates["last_updated"]
             value = quality_updates["current_value"]
+            print(f"{quality}: value {value}, last update {last_updated}")
             # this behaviour is based on the fact that the only regular wq qualities with a possible "0" value are Rat Market presence (which changes predictably) and Demand qualities, which can remain at "0" over multiple weeks
             is_updated = (value == "0") or (last_updated >= time_update)
             if not is_updated:
