@@ -133,7 +133,7 @@ def format_wikiurl(string: str):
     return string
 
 def format_npfhtml(block: dict):
-    rgx_bold = r"<b>([,() \-\w\d']+)</b>"
+    rgx_bold = r"<b>(.+)</b>"
 
     string = block["text"]
     if (not "formatting" in block.keys()) or (not block["formatting"]):
@@ -160,8 +160,8 @@ def format_npfhtml(block: dict):
 
 
 def format_npfwikiurl(block: dict):
-    rgx_simple = r"\[\[([\(\)_,:.' \-éèòàù\w]+)\]\]"
-    rgx_alias = r"\[\[([\(\)_,:.' \-éèòàù\w]+)\|([\(\)_,:.' \-éèòàù\w]+)\]\]"
+    rgx_simple = r"\[\[(.+)\]\]"
+    rgx_alias = r"\[\[(.+)\|(.+)\]\]"
 
     if "formatting" in block.keys():
         formatting = block["formatting"]
